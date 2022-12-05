@@ -1,0 +1,11 @@
+{{template "partials/header" .}}
+<body>
+    <div class="center-align">
+        <form action="/payments/create-checkout-session" method="POST">
+            <input type="text" value={{.eventId}} name="eventId" readonly="readonly" style="display: none"><input>
+            <button type="submit" class="waves-effect waves-light btn">Continue to Payment</button>
+        </form>
+    </div>
+</body>
+
+{{template "partials/footer" .}}
