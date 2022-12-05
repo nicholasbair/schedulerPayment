@@ -16,7 +16,7 @@ This is a rough POC of incorporating a payment workflow into the Nylas scheduler
 5. Book a meeting
 
 ## TODO
-[] - Error handling
-[] - Add TTL to pending meetings, purge meetings after TTL to handle case where user never completes payment workflow
-[] - Validation/security for redirects
-[] - Store and lookup connected account's access token instead of using `.env`
+- [] Error handling
+- [] Add TTL to pending meetings, purge meetings after TTL to handle case where user never completes payment workflow
+- [] Validation/security for redirects
+- [] Store and lookup connected account's access token instead of using `.env`
